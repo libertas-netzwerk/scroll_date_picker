@@ -295,20 +295,6 @@ class _ScrollDatePickerState extends State<ScrollDatePicker> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Expanded(
-                child: Container(
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      begin: Alignment.topCenter,
-                      end: Alignment.bottomCenter,
-                      colors: [
-                        widget.options.backgroundColor,
-                        widget.options.backgroundColor.withOpacity(0.9),
-                      ],
-                    ),
-                  ),
-                ),
-              ),
               widget.indicator ??
                   Container(
                     height: widget.options.itemExtent,
@@ -317,20 +303,6 @@ class _ScrollDatePickerState extends State<ScrollDatePicker> {
                       borderRadius: const BorderRadius.all(Radius.circular(4)),
                     ),
                   ),
-              Expanded(
-                child: Container(
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      begin: Alignment.topCenter,
-                      end: Alignment.bottomCenter,
-                      colors: [
-                        widget.options.backgroundColor.withOpacity(0.7),
-                        widget.options.backgroundColor,
-                      ],
-                    ),
-                  ),
-                ),
-              ),
             ],
           ),
         ),
