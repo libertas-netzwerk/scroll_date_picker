@@ -303,7 +303,7 @@ class _ScrollDatePickerState extends State<ScrollDatePicker> {
                       end: Alignment.bottomCenter,
                       colors: [
                         widget.options.backgroundColor,
-                        widget.options.backgroundColor.withOpacity(0.7),
+                        widget.options.backgroundColor.withOpacity(0.9),
                       ],
                     ),
                   ),
